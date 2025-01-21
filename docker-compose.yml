@@ -9,6 +9,8 @@ services:
       - "4000:4000"
     environment:
       - NODE_ENV=development
+      - ALIBABA_CLOUD_ACCESS_KEY_ID=
+      - ALIBABA_CLOUD_ACCESS_KEY_SECRET=
     volumes:
       - .:/app
       - /app/node_modules
